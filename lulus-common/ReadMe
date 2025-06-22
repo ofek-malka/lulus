@@ -1,0 +1,2 @@
+The readers for properties and XML files still need to be tested, 
+along with full test coverage for the Maven API and the fluent error DSL.

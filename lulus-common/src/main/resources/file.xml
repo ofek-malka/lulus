@@ -1,0 +1,25 @@
+
+
+<company>
+	<staff>
+		<firstName>John</firstName>
+		<lastName>Doe</lastName>
+		<email>john@example.com</email>
+		<salary>50000</salary>
+		<addressCountry>USA</addressCountry>
+	 	<addressCity>New York</addressCity> 
+	</staff>
+	<staff>
+		<firstName>Ofek</firstName>
+		<lastName>Malka</lastName>
+		<email>om@example.com</email>
+		<salary>80000</salary>
+
+				 <addressCountry>Tel Aviv</addressCountry>
+		<addressCity>Israel</addressCity>
+
+	</staff>
+	
+
+</company>
+

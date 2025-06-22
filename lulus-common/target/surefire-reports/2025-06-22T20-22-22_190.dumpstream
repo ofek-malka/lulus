@@ -1,0 +1,5 @@
+# Created at 2025-06-22T20:22:23.130
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Lulus-2025\lulus-parent\lulus-common\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

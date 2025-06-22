@@ -1,0 +1,7 @@
+dev\ofekmalka\core\query\QueryBuilder$AddConditions.class
+dev\ofekmalka\core\query\QueryBuilder$DeleteFrom.class
+dev\ofekmalka\core\query\QueryBuilder.class
+dev\ofekmalka\core\query\QueryBuilder$AddTables.class
+dev\ofekmalka\core\query\QueryBuilder$InsertInto.class
+dev\ofekmalka\core\query\QueryBuilder$UpdateTable.class
+dev\ofekmalka\core\query\QueryBuilder$AddValues.class

@@ -1,0 +1,15 @@
+dev\ofekmalka\core\application\XmlReader.class
+dev\ofekmalka\core\application\ConfigReader.class
+dev\ofekmalka\core\application\XmlReader$Builder$AddFileName.class
+dev\ofekmalka\core\application\XmlReader$Builder$AddNumberOfObjects.class
+dev\ofekmalka\core\application\XmlReader$Builder$AddGrandChildrenTags.class
+dev\ofekmalka\core\application\XmlReader$Errors$ErrorMessage.class
+dev\ofekmalka\core\application\PropertyReader$GetAs.class
+dev\ofekmalka\core\application\XmlReader$Builder.class
+dev\ofekmalka\core\application\XmlReader$Builder$AddChildElementName.class
+dev\ofekmalka\core\application\PropertyReader$Errors$ErrorMessage.class
+dev\ofekmalka\core\application\XmlReader$Builder$AddRootElementName.class
+dev\ofekmalka\core\application\XmlReader$Errors.class
+dev\ofekmalka\core\application\PropertyReader.class
+dev\ofekmalka\core\application\PropertyReader$OriginSource.class
+dev\ofekmalka\core\application\PropertyReader$Errors.class

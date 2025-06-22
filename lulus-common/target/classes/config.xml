@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="host">acme.org</entry>
+    <entry key="port">6666</entry>
+    <entry key="name"></entry>
+    <entry key="temp">71.3</entry>
+    <entry key="price">$45</entry>
+    <entry key="list">34,56,67,89</entry>
+    <entry key="person">id:3,firstName:Jane,lastName:Doe</entry>
+    <entry key="type">SerIal</entry>
+    <entry key="employees">id:3,firstName:Jane,lastName:Doe;id:5,firstName:Paul,lastName:Smith;id:8,firstName:Mary,lastName:Winston</entry>
+</properties>

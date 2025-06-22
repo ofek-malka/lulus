@@ -1,0 +1,135 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.7, Java HotSpot(TM) 64-Bit Server VM, 21.0.7+8-LTS-245
+# VM invoker: C:\Program Files\Java\jdk-21\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.ofekmalka.WWW2.foldLeft
+# Parameters: (numberOfElements = 1000)
+
+# Run progress: 0.00% complete, ETA 00:01:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.472 ms/op
+# Warmup Iteration   2: 0.250 ms/op
+# Warmup Iteration   3: 0.197 ms/op
+# Warmup Iteration   4: 0.194 ms/op
+# Warmup Iteration   5: 0.191 ms/op
+Iteration   1: 0.184 ms/op
+Iteration   2: 0.176 ms/op
+Iteration   3: 0.178 ms/op
+Iteration   4: 0.183 ms/op
+Iteration   5: 0.176 ms/op
+
+# Run progress: 16.67% complete, ETA 00:00:59
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.496 ms/op
+# Warmup Iteration   2: 0.246 ms/op
+# Warmup Iteration   3: 0.202 ms/op
+# Warmup Iteration   4: 0.204 ms/op
+# Warmup Iteration   5: 0.183 ms/op
+Iteration   1: 0.213 ms/op
+Iteration   2: 0.185 ms/op
+Iteration   3: 0.184 ms/op
+Iteration   4: 0.217 ms/op
+Iteration   5: 0.180 ms/op
+
+# Run progress: 33.33% complete, ETA 00:00:47
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.610 ms/op
+# Warmup Iteration   2: 0.248 ms/op
+# Warmup Iteration   3: 0.247 ms/op
+# Warmup Iteration   4: 0.230 ms/op
+# Warmup Iteration   5: 0.199 ms/op
+Iteration   1: 0.237 ms/op
+Iteration   2: 0.185 ms/op
+Iteration   3: 0.191 ms/op
+Iteration   4: 0.211 ms/op
+Iteration   5: 0.184 ms/op
+
+
+Result "com.ofekmalka.WWW2.foldLeft":
+  0.192 ±(99.9%) 0.020 ms/op [Average]
+  (min, avg, max) = (0.176, 0.192, 0.237), stdev = 0.018
+  CI (99.9%): [0.173, 0.212] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.7, Java HotSpot(TM) 64-Bit Server VM, 21.0.7+8-LTS-245
+# VM invoker: C:\Program Files\Java\jdk-21\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.ofekmalka.WWW2.foldLeft
+# Parameters: (numberOfElements = 100000)
+
+# Run progress: 50.00% complete, ETA 00:00:36
+# Fork: 1 of 3
+# Warmup Iteration   1: 26.035 ms/op
+# Warmup Iteration   2: 13.250 ms/op
+# Warmup Iteration   3: 11.743 ms/op
+# Warmup Iteration   4: 14.091 ms/op
+# Warmup Iteration   5: 11.632 ms/op
+Iteration   1: 12.613 ms/op
+Iteration   2: 11.818 ms/op
+Iteration   3: 12.038 ms/op
+Iteration   4: 11.572 ms/op
+Iteration   5: 11.550 ms/op
+
+# Run progress: 66.67% complete, ETA 00:00:24
+# Fork: 2 of 3
+# Warmup Iteration   1: 22.659 ms/op
+# Warmup Iteration   2: 13.205 ms/op
+# Warmup Iteration   3: 11.510 ms/op
+# Warmup Iteration   4: 12.246 ms/op
+# Warmup Iteration   5: 11.629 ms/op
+Iteration   1: 11.315 ms/op
+Iteration   2: 12.730 ms/op
+Iteration   3: 11.165 ms/op
+Iteration   4: 11.397 ms/op
+Iteration   5: 11.638 ms/op
+
+# Run progress: 83.33% complete, ETA 00:00:12
+# Fork: 3 of 3
+# Warmup Iteration   1: 23.731 ms/op
+# Warmup Iteration   2: 13.764 ms/op
+# Warmup Iteration   3: 13.463 ms/op
+# Warmup Iteration   4: 13.258 ms/op
+# Warmup Iteration   5: 13.149 ms/op
+Iteration   1: 12.221 ms/op
+Iteration   2: 13.740 ms/op
+Iteration   3: 12.267 ms/op
+Iteration   4: 12.282 ms/op
+Iteration   5: 11.942 ms/op
+
+
+Result "com.ofekmalka.WWW2.foldLeft":
+  12.019 ±(99.9%) 0.712 ms/op [Average]
+  (min, avg, max) = (11.165, 12.019, 13.740), stdev = 0.666
+  CI (99.9%): [11.307, 12.731] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:12
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark      (numberOfElements)  Mode  Cnt   Score   Error  Units
+WWW2.foldLeft                1000  avgt   15   0.192 ± 0.020  ms/op
+WWW2.foldLeft              100000  avgt   15  12.019 ± 0.712  ms/op
